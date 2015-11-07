@@ -1,4 +1,4 @@
-# MIT Maker Portfolio by AD Mohanraj
+# GeoChat
 
 <h1>Code Layout</h1>
 I’d like to explain how I laid out my code, just to make it a little bit easier for you guys to take a look at it. Inside my main directory, you should find two subfolders called Client and Server. Inside client are all the swift source files I’ve personally written for this project (meaning I haven’t included any of the code from external libraries I’m using). If you’d like to run the project, or take a look at some of the external libraries I used, you can look inside the GeoChat Full Client folder. This contains all dependencies and frameworks and is ready to be built (make sure to open the GeoChat.xcworkspace file). Likewise, in the Server folder, you can find all the php files that I wrote to communicate with the client. To look at the full server, including external libraries and directory structure, take a look inside the GeoChat Full Server folder.
