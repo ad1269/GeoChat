@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ACBBC8C9-C1A1-4F7E-B359-B88E859E4479</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GeoChat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B6F53AA57EBDCCB52BD523882F696BD1B7D982E1</key>
+		<string>https://github.com/ad1269/Bankroll-Full.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Client/GeoChat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B6F53AA57EBDCCB52BD523882F696BD1B7D982E1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ad1269/Bankroll-Full.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B6F53AA57EBDCCB52BD523882F696BD1B7D982E1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B6F53AA57EBDCCB52BD523882F696BD1B7D982E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bankroll</string>
+		</dict>
+	</array>
+</dict>
+</plist>

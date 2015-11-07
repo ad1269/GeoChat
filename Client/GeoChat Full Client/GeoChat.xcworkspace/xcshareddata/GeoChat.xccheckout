@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ED767E7F-3E3C-4ED6-ACB9-6A00BA7BDF0C</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5157E78D29D6A1512C33EEE1352A93CFCD805791</key>
+		<string>https://github.com/ad1269/MIT-Maker-Portfolio.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5157E78D29D6A1512C33EEE1352A93CFCD805791</key>
+		<string>GeoChat%20Final%20Project/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ad1269/MIT-Maker-Portfolio.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5157E78D29D6A1512C33EEE1352A93CFCD805791</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5157E78D29D6A1512C33EEE1352A93CFCD805791</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GeoChat%20Final%20Project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

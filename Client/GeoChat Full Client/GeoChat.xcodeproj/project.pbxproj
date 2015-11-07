@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BB5CEE81BDD6B090066F308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEA31BDD6B090066F308 /* AppDelegate.swift */; };
+		6BB5CEE91BDD6B090066F308 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CEA41BDD6B090066F308 /* LaunchScreen.xib */; };
+		6BB5CEEA1BDD6B090066F308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CEA61BDD6B090066F308 /* Main.storyboard */; };
+		6BB5CEEB1BDD6B090066F308 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEA91BDD6B090066F308 /* Post.swift */; };
+		6BB5CEEC1BDD6B090066F308 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEAA1BDD6B090066F308 /* PostCell.swift */; };
+		6BB5CEED1BDD6B090066F308 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEAB1BDD6B090066F308 /* User.swift */; };
+		6BB5CEEE1BDD6B090066F308 /* ACLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEAD1BDD6B090066F308 /* ACLocation.swift */; };
+		6BB5CEEF1BDD6B090066F308 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEAE1BDD6B090066F308 /* Alamofire.swift */; };
+		6BB5CEF01BDD6B090066F308 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEAF1BDD6B090066F308 /* Crypto.swift */; };
+		6BB5CEF11BDD6B090066F308 /* GrowingTextViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEB11BDD6B090066F308 /* GrowingTextViewHandler.m */; };
+		6BB5CEF21BDD6B090066F308 /* INTULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEB51BDD6B090066F308 /* INTULocationManager.m */; };
+		6BB5CEF31BDD6B090066F308 /* INTULocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEB71BDD6B090066F308 /* INTULocationRequest.m */; };
+		6BB5CEF41BDD6B090066F308 /* NavigationColorSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEB91BDD6B090066F308 /* NavigationColorSetter.swift */; };
+		6BB5CEF51BDD6B090066F308 /* ACEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEBC1BDD6B090066F308 /* ACEncryptor.m */; };
+		6BB5CEF61BDD6B090066F308 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEC11BDD6B090066F308 /* RNCryptor.m */; };
+		6BB5CEF71BDD6B090066F308 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEC31BDD6B090066F308 /* RNCryptorEngine.m */; };
+		6BB5CEF81BDD6B090066F308 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEC51BDD6B090066F308 /* RNDecryptor.m */; };
+		6BB5CEF91BDD6B090066F308 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEC71BDD6B090066F308 /* RNEncryptor.m */; };
+		6BB5CEFA1BDD6B090066F308 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CECA1BDD6B090066F308 /* RSA.m */; };
+		6BB5CEFB1BDD6B090066F308 /* XMLWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CECB1BDD6B090066F308 /* XMLWriter.swift */; };
+		6BB5CEFC1BDD6B090066F308 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CECC1BDD6B090066F308 /* Images.xcassets */; };
+		6BB5CEFD1BDD6B090066F308 /* 1Star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED01BDD6B090066F308 /* 1Star@2x.png */; };
+		6BB5CEFE1BDD6B090066F308 /* Alarm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED11BDD6B090066F308 /* Alarm@2x.png */; };
+		6BB5CEFF1BDD6B090066F308 /* Camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED21BDD6B090066F308 /* Camera@2x.png */; };
+		6BB5CF001BDD6B090066F308 /* Downvote.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED31BDD6B090066F308 /* Downvote.png */; };
+		6BB5CF011BDD6B090066F308 /* GeoChat Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED41BDD6B090066F308 /* GeoChat Logo.png */; };
+		6BB5CF021BDD6B090066F308 /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED51BDD6B090066F308 /* Globe.png */; };
+		6BB5CF031BDD6B090066F308 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED61BDD6B090066F308 /* overlay.png */; };
+		6BB5CF041BDD6B090066F308 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED71BDD6B090066F308 /* Players@2x.png */; };
+		6BB5CF051BDD6B090066F308 /* postImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED81BDD6B090066F308 /* postImage.jpg */; };
+		6BB5CF061BDD6B090066F308 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CED91BDD6B090066F308 /* profile.jpg */; };
+		6BB5CF071BDD6B090066F308 /* Search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CEDA1BDD6B090066F308 /* Search@2x.png */; };
+		6BB5CF081BDD6B090066F308 /* Upvote.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CEDB1BDD6B090066F308 /* Upvote.png */; };
+		6BB5CF0A1BDD6B090066F308 /* US.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CEDD1BDD6B090066F308 /* US.txt */; };
+		6BB5CF0B1BDD6B090066F308 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEDF1BDD6B090066F308 /* HomeController.swift */; };
+		6BB5CF0C1BDD6B090066F308 /* LaunchPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEE01BDD6B090066F308 /* LaunchPic.swift */; };
+		6BB5CF0D1BDD6B090066F308 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEE11BDD6B090066F308 /* NewPostViewController.swift */; };
+		6BB5CF0E1BDD6B090066F308 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEE21BDD6B090066F308 /* NotificationController.swift */; };
+		6BB5CF0F1BDD6B090066F308 /* PictureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEE31BDD6B090066F308 /* PictureController.swift */; };
+		6BB5CF101BDD6B090066F308 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEE41BDD6B090066F308 /* ProfileController.swift */; };
+		6BB5CF111BDD6B090066F308 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEE51BDD6B090066F308 /* SearchController.swift */; };
+		6BB5CF121BDD6B090066F308 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEE61BDD6B090066F308 /* SignUpController.swift */; };
+		6BB5CF131BDD6B090066F308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CEE71BDD6B090066F308 /* ViewController.swift */; };
+		6BB5CF1B1BDD6DF60066F308 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CF191BDD6DF60066F308 /* Info.plist */; };
+		6BB5CF1D1BDD6E240066F308 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BB5CF1C1BDD6E240066F308 /* Entitlements.plist */; };
+		6BB5CF2D1BDD6EFB0066F308 /* GeoChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5CF2C1BDD6EFB0066F308 /* GeoChatTests.swift */; };
+		D064ED392FE7C8B463D899CF /* Pods_Bankroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C86832ED3CA99F9B909916 /* Pods_Bankroll.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BB5CF2E1BDD6EFB0066F308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B24BF661ABE6DAE00BB5AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B24BF6D1ABE6DAE00BB5AD9;
+			remoteInfo = GeoChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B24BF6E1ABE6DAE00BB5AD9 /* GeoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB5CEA31BDD6B090066F308 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BB5CEA51BDD6B090066F308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6BB5CEA71BDD6B090066F308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB5CEA91BDD6B090066F308 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6BB5CEAA1BDD6B090066F308 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		6BB5CEAB1BDD6B090066F308 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6BB5CEAD1BDD6B090066F308 /* ACLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACLocation.swift; sourceTree = "<group>"; };
+		6BB5CEAE1BDD6B090066F308 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		6BB5CEAF1BDD6B090066F308 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		6BB5CEB01BDD6B090066F308 /* GrowingTextViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTextViewHandler.h; sourceTree = "<group>"; };
+		6BB5CEB11BDD6B090066F308 /* GrowingTextViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTextViewHandler.m; sourceTree = "<group>"; };
+		6BB5CEB31BDD6B090066F308 /* INTULocationManager+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "INTULocationManager+Internal.h"; sourceTree = "<group>"; };
+		6BB5CEB41BDD6B090066F308 /* INTULocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationManager.h; sourceTree = "<group>"; };
+		6BB5CEB51BDD6B090066F308 /* INTULocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTULocationManager.m; sourceTree = "<group>"; };
+		6BB5CEB61BDD6B090066F308 /* INTULocationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationRequest.h; sourceTree = "<group>"; };
+		6BB5CEB71BDD6B090066F308 /* INTULocationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTULocationRequest.m; sourceTree = "<group>"; };
+		6BB5CEB81BDD6B090066F308 /* INTULocationRequestDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationRequestDefines.h; sourceTree = "<group>"; };
+		6BB5CEB91BDD6B090066F308 /* NavigationColorSetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationColorSetter.swift; sourceTree = "<group>"; };
+		6BB5CEBB1BDD6B090066F308 /* ACEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEncryptor.h; sourceTree = "<group>"; };
+		6BB5CEBC1BDD6B090066F308 /* ACEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEncryptor.m; sourceTree = "<group>"; };
+		6BB5CEBD1BDD6B090066F308 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		6BB5CEBE1BDD6B090066F308 /* RNCryptor+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Swift.h"; sourceTree = "<group>"; };
+		6BB5CEBF1BDD6B090066F308 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		6BB5CEC01BDD6B090066F308 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		6BB5CEC11BDD6B090066F308 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		6BB5CEC21BDD6B090066F308 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		6BB5CEC31BDD6B090066F308 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		6BB5CEC41BDD6B090066F308 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		6BB5CEC51BDD6B090066F308 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		6BB5CEC61BDD6B090066F308 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		6BB5CEC71BDD6B090066F308 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		6BB5CEC91BDD6B090066F308 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		6BB5CECA1BDD6B090066F308 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		6BB5CECB1BDD6B090066F308 /* XMLWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLWriter.swift; sourceTree = "<group>"; };
+		6BB5CECC1BDD6B090066F308 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BB5CECE1BDD6B090066F308 /* Bankroll-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bankroll-Bridging-Header.h"; sourceTree = "<group>"; };
+		6BB5CED01BDD6B090066F308 /* 1Star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Star@2x.png"; sourceTree = "<group>"; };
+		6BB5CED11BDD6B090066F308 /* Alarm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alarm@2x.png"; sourceTree = "<group>"; };
+		6BB5CED21BDD6B090066F308 /* Camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera@2x.png"; sourceTree = "<group>"; };
+		6BB5CED31BDD6B090066F308 /* Downvote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Downvote.png; sourceTree = "<group>"; };
+		6BB5CED41BDD6B090066F308 /* GeoChat Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GeoChat Logo.png"; sourceTree = "<group>"; };
+		6BB5CED51BDD6B090066F308 /* Globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Globe.png; sourceTree = "<group>"; };
+		6BB5CED61BDD6B090066F308 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay.png; sourceTree = "<group>"; };
+		6BB5CED71BDD6B090066F308 /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
+		6BB5CED81BDD6B090066F308 /* postImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postImage.jpg; sourceTree = "<group>"; };
+		6BB5CED91BDD6B090066F308 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		6BB5CEDA1BDD6B090066F308 /* Search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search@2x.png"; sourceTree = "<group>"; };
+		6BB5CEDB1BDD6B090066F308 /* Upvote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upvote.png; sourceTree = "<group>"; };
+		6BB5CEDD1BDD6B090066F308 /* US.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = US.txt; sourceTree = "<group>"; };
+		6BB5CEDF1BDD6B090066F308 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		6BB5CEE01BDD6B090066F308 /* LaunchPic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchPic.swift; sourceTree = "<group>"; };
+		6BB5CEE11BDD6B090066F308 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		6BB5CEE21BDD6B090066F308 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6BB5CEE31BDD6B090066F308 /* PictureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureController.swift; sourceTree = "<group>"; };
+		6BB5CEE41BDD6B090066F308 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		6BB5CEE51BDD6B090066F308 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		6BB5CEE61BDD6B090066F308 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		6BB5CEE71BDD6B090066F308 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BB5CF191BDD6DF60066F308 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB5CF1C1BDD6E240066F308 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = SOURCE_ROOT; };
+		6BB5CF281BDD6EFB0066F308 /* GeoChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB5CF2B1BDD6EFB0066F308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB5CF2C1BDD6EFB0066F308 /* GeoChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoChatTests.swift; sourceTree = "<group>"; };
+		7EFF7709251A0BAAAFC7A06D /* Pods-Bankroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bankroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bankroll/Pods-Bankroll.release.xcconfig"; sourceTree = "<group>"; };
+		A59357B9899B4F49F63124BD /* Pods-Bankroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bankroll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bankroll/Pods-Bankroll.debug.xcconfig"; sourceTree = "<group>"; };
+		E9C86832ED3CA99F9B909916 /* Pods_Bankroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bankroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B24BF6B1ABE6DAE00BB5AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D064ED392FE7C8B463D899CF /* Pods_Bankroll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB5CF251BDD6EFB0066F308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B24BF651ABE6DAE00BB5AD9 = {
+			isa = PBXGroup;
+			children = (
+				6BB5CEA21BDD6B090066F308 /* GeoChat */,
+				6BB5CF291BDD6EFB0066F308 /* GeoChatTests */,
+				6B24BF6F1ABE6DAE00BB5AD9 /* Products */,
+				B6F5BDEFD08D266BC6786CCD /* Pods */,
+				801468008F9BBF1862DF259F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B24BF6F1ABE6DAE00BB5AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B24BF6E1ABE6DAE00BB5AD9 /* GeoChat.app */,
+				6BB5CF281BDD6EFB0066F308 /* GeoChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB5CEA21BDD6B090066F308 /* GeoChat */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CEA31BDD6B090066F308 /* AppDelegate.swift */,
+				6BB5CEA41BDD6B090066F308 /* LaunchScreen.xib */,
+				6BB5CECC1BDD6B090066F308 /* Images.xcassets */,
+				6BB5CEA61BDD6B090066F308 /* Main.storyboard */,
+				6BB5CEAC1BDD6B090066F308 /* Helper Classes */,
+				6BB5CEDE1BDD6B090066F308 /* View Controllers */,
+				6BB5CEA81BDD6B090066F308 /* Data Structures */,
+				6BB5CECD1BDD6B090066F308 /* Supporting Files */,
+			);
+			path = GeoChat;
+			sourceTree = "<group>";
+		};
+		6BB5CEA81BDD6B090066F308 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CEA91BDD6B090066F308 /* Post.swift */,
+				6BB5CEAA1BDD6B090066F308 /* PostCell.swift */,
+				6BB5CEAB1BDD6B090066F308 /* User.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		6BB5CEAC1BDD6B090066F308 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CEAD1BDD6B090066F308 /* ACLocation.swift */,
+				6BB5CEAF1BDD6B090066F308 /* Crypto.swift */,
+				6BB5CEB91BDD6B090066F308 /* NavigationColorSetter.swift */,
+				6BB5CECB1BDD6B090066F308 /* XMLWriter.swift */,
+				6BB5CEB21BDD6B090066F308 /* INTULocationManager */,
+				6BB5CEBA1BDD6B090066F308 /* RNCryptor */,
+				6BB5CEC81BDD6B090066F308 /* RSA */,
+				6BB5CEAE1BDD6B090066F308 /* Alamofire.swift */,
+				6BB5CEB01BDD6B090066F308 /* GrowingTextViewHandler.h */,
+				6BB5CEB11BDD6B090066F308 /* GrowingTextViewHandler.m */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		6BB5CEB21BDD6B090066F308 /* INTULocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CEB31BDD6B090066F308 /* INTULocationManager+Internal.h */,
+				6BB5CEB41BDD6B090066F308 /* INTULocationManager.h */,
+				6BB5CEB51BDD6B090066F308 /* INTULocationManager.m */,
+				6BB5CEB61BDD6B090066F308 /* INTULocationRequest.h */,
+				6BB5CEB71BDD6B090066F308 /* INTULocationRequest.m */,
+				6BB5CEB81BDD6B090066F308 /* INTULocationRequestDefines.h */,
+			);
+			path = INTULocationManager;
+			sourceTree = "<group>";
+		};
+		6BB5CEBA1BDD6B090066F308 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CEBB1BDD6B090066F308 /* ACEncryptor.h */,
+				6BB5CEBC1BDD6B090066F308 /* ACEncryptor.m */,
+				6BB5CEBD1BDD6B090066F308 /* RNCryptor+Private.h */,
+				6BB5CEBE1BDD6B090066F308 /* RNCryptor+Swift.h */,
+				6BB5CEBF1BDD6B090066F308 /* RNCryptor-Prefix.pch */,
+				6BB5CEC01BDD6B090066F308 /* RNCryptor.h */,
+				6BB5CEC11BDD6B090066F308 /* RNCryptor.m */,
+				6BB5CEC21BDD6B090066F308 /* RNCryptorEngine.h */,
+				6BB5CEC31BDD6B090066F308 /* RNCryptorEngine.m */,
+				6BB5CEC41BDD6B090066F308 /* RNDecryptor.h */,
+				6BB5CEC51BDD6B090066F308 /* RNDecryptor.m */,
+				6BB5CEC61BDD6B090066F308 /* RNEncryptor.h */,
+				6BB5CEC71BDD6B090066F308 /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		6BB5CEC81BDD6B090066F308 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CEC91BDD6B090066F308 /* RSA.h */,
+				6BB5CECA1BDD6B090066F308 /* RSA.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		6BB5CECD1BDD6B090066F308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CECF1BDD6B090066F308 /* Images */,
+				6BB5CECE1BDD6B090066F308 /* Bankroll-Bridging-Header.h */,
+				6BB5CF191BDD6DF60066F308 /* Info.plist */,
+				6BB5CF1C1BDD6E240066F308 /* Entitlements.plist */,
+				6BB5CEDD1BDD6B090066F308 /* US.txt */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BB5CECF1BDD6B090066F308 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CED01BDD6B090066F308 /* 1Star@2x.png */,
+				6BB5CED11BDD6B090066F308 /* Alarm@2x.png */,
+				6BB5CED21BDD6B090066F308 /* Camera@2x.png */,
+				6BB5CED31BDD6B090066F308 /* Downvote.png */,
+				6BB5CED41BDD6B090066F308 /* GeoChat Logo.png */,
+				6BB5CED51BDD6B090066F308 /* Globe.png */,
+				6BB5CED61BDD6B090066F308 /* overlay.png */,
+				6BB5CED71BDD6B090066F308 /* Players@2x.png */,
+				6BB5CED81BDD6B090066F308 /* postImage.jpg */,
+				6BB5CED91BDD6B090066F308 /* profile.jpg */,
+				6BB5CEDA1BDD6B090066F308 /* Search@2x.png */,
+				6BB5CEDB1BDD6B090066F308 /* Upvote.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6BB5CEDE1BDD6B090066F308 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CEDF1BDD6B090066F308 /* HomeController.swift */,
+				6BB5CEE01BDD6B090066F308 /* LaunchPic.swift */,
+				6BB5CEE11BDD6B090066F308 /* NewPostViewController.swift */,
+				6BB5CEE21BDD6B090066F308 /* NotificationController.swift */,
+				6BB5CEE31BDD6B090066F308 /* PictureController.swift */,
+				6BB5CEE41BDD6B090066F308 /* ProfileController.swift */,
+				6BB5CEE51BDD6B090066F308 /* SearchController.swift */,
+				6BB5CEE61BDD6B090066F308 /* SignUpController.swift */,
+				6BB5CEE71BDD6B090066F308 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6BB5CF291BDD6EFB0066F308 /* GeoChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CF2C1BDD6EFB0066F308 /* GeoChatTests.swift */,
+				6BB5CF2A1BDD6EFB0066F308 /* Supporting Files */,
+			);
+			path = GeoChatTests;
+			sourceTree = "<group>";
+		};
+		6BB5CF2A1BDD6EFB0066F308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5CF2B1BDD6EFB0066F308 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		801468008F9BBF1862DF259F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9C86832ED3CA99F9B909916 /* Pods_Bankroll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6F5BDEFD08D266BC6786CCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A59357B9899B4F49F63124BD /* Pods-Bankroll.debug.xcconfig */,
+				7EFF7709251A0BAAAFC7A06D /* Pods-Bankroll.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B24BF6D1ABE6DAE00BB5AD9 /* GeoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B24BF8D1ABE6DAE00BB5AD9 /* Build configuration list for PBXNativeTarget "GeoChat" */;
+			buildPhases = (
+				95FDAFC819737A17554DD9BE /* Check Pods Manifest.lock */,
+				6B24BF6A1ABE6DAE00BB5AD9 /* Sources */,
+				6B24BF6B1ABE6DAE00BB5AD9 /* Frameworks */,
+				6B24BF6C1ABE6DAE00BB5AD9 /* Resources */,
+				39107E9C3CD24009E6F6A18C /* Embed Pods Frameworks */,
+				CFE29A161A8235283E4DE8DC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoChat;
+			productName = Bankroll;
+			productReference = 6B24BF6E1ABE6DAE00BB5AD9 /* GeoChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BB5CF271BDD6EFB0066F308 /* GeoChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB5CF301BDD6EFB0066F308 /* Build configuration list for PBXNativeTarget "GeoChatTests" */;
+			buildPhases = (
+				6BB5CF241BDD6EFB0066F308 /* Sources */,
+				6BB5CF251BDD6EFB0066F308 /* Frameworks */,
+				6BB5CF261BDD6EFB0066F308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB5CF2F1BDD6EFB0066F308 /* PBXTargetDependency */,
+			);
+			name = GeoChatTests;
+			productName = GeoChatTests;
+			productReference = 6BB5CF281BDD6EFB0066F308 /* GeoChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B24BF661ABE6DAE00BB5AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AD;
+				TargetAttributes = {
+					6B24BF6D1ABE6DAE00BB5AD9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6BB5CF271BDD6EFB0066F308 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6B24BF6D1ABE6DAE00BB5AD9;
+					};
+				};
+			};
+			buildConfigurationList = 6B24BF691ABE6DAE00BB5AD9 /* Build configuration list for PBXProject "GeoChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B24BF651ABE6DAE00BB5AD9;
+			productRefGroup = 6B24BF6F1ABE6DAE00BB5AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B24BF6D1ABE6DAE00BB5AD9 /* GeoChat */,
+				6BB5CF271BDD6EFB0066F308 /* GeoChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B24BF6C1ABE6DAE00BB5AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB5CF031BDD6B090066F308 /* overlay.png in Resources */,
+				6BB5CF061BDD6B090066F308 /* profile.jpg in Resources */,
+				6BB5CF051BDD6B090066F308 /* postImage.jpg in Resources */,
+				6BB5CEFD1BDD6B090066F308 /* 1Star@2x.png in Resources */,
+				6BB5CF071BDD6B090066F308 /* Search@2x.png in Resources */,
+				6BB5CF021BDD6B090066F308 /* Globe.png in Resources */,
+				6BB5CF081BDD6B090066F308 /* Upvote.png in Resources */,
+				6BB5CF1B1BDD6DF60066F308 /* Info.plist in Resources */,
+				6BB5CF0A1BDD6B090066F308 /* US.txt in Resources */,
+				6BB5CEFF1BDD6B090066F308 /* Camera@2x.png in Resources */,
+				6BB5CEFC1BDD6B090066F308 /* Images.xcassets in Resources */,
+				6BB5CEE91BDD6B090066F308 /* LaunchScreen.xib in Resources */,
+				6BB5CF1D1BDD6E240066F308 /* Entitlements.plist in Resources */,
+				6BB5CF041BDD6B090066F308 /* Players@2x.png in Resources */,
+				6BB5CF001BDD6B090066F308 /* Downvote.png in Resources */,
+				6BB5CEFE1BDD6B090066F308 /* Alarm@2x.png in Resources */,
+				6BB5CEEA1BDD6B090066F308 /* Main.storyboard in Resources */,
+				6BB5CF011BDD6B090066F308 /* GeoChat Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB5CF261BDD6EFB0066F308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39107E9C3CD24009E6F6A18C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bankroll/Pods-Bankroll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95FDAFC819737A17554DD9BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE29A161A8235283E4DE8DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bankroll/Pods-Bankroll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B24BF6A1ABE6DAE00BB5AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB5CEEF1BDD6B090066F308 /* Alamofire.swift in Sources */,
+				6BB5CF111BDD6B090066F308 /* SearchController.swift in Sources */,
+				6BB5CF0F1BDD6B090066F308 /* PictureController.swift in Sources */,
+				6BB5CF0C1BDD6B090066F308 /* LaunchPic.swift in Sources */,
+				6BB5CEF61BDD6B090066F308 /* RNCryptor.m in Sources */,
+				6BB5CEED1BDD6B090066F308 /* User.swift in Sources */,
+				6BB5CEEE1BDD6B090066F308 /* ACLocation.swift in Sources */,
+				6BB5CEF81BDD6B090066F308 /* RNDecryptor.m in Sources */,
+				6BB5CEE81BDD6B090066F308 /* AppDelegate.swift in Sources */,
+				6BB5CEEB1BDD6B090066F308 /* Post.swift in Sources */,
+				6BB5CEF01BDD6B090066F308 /* Crypto.swift in Sources */,
+				6BB5CEF71BDD6B090066F308 /* RNCryptorEngine.m in Sources */,
+				6BB5CEF21BDD6B090066F308 /* INTULocationManager.m in Sources */,
+				6BB5CF121BDD6B090066F308 /* SignUpController.swift in Sources */,
+				6BB5CEF41BDD6B090066F308 /* NavigationColorSetter.swift in Sources */,
+				6BB5CEF11BDD6B090066F308 /* GrowingTextViewHandler.m in Sources */,
+				6BB5CEF31BDD6B090066F308 /* INTULocationRequest.m in Sources */,
+				6BB5CF0E1BDD6B090066F308 /* NotificationController.swift in Sources */,
+				6BB5CEF51BDD6B090066F308 /* ACEncryptor.m in Sources */,
+				6BB5CEFB1BDD6B090066F308 /* XMLWriter.swift in Sources */,
+				6BB5CEFA1BDD6B090066F308 /* RSA.m in Sources */,
+				6BB5CF131BDD6B090066F308 /* ViewController.swift in Sources */,
+				6BB5CF0D1BDD6B090066F308 /* NewPostViewController.swift in Sources */,
+				6BB5CEF91BDD6B090066F308 /* RNEncryptor.m in Sources */,
+				6BB5CF0B1BDD6B090066F308 /* HomeController.swift in Sources */,
+				6BB5CEEC1BDD6B090066F308 /* PostCell.swift in Sources */,
+				6BB5CF101BDD6B090066F308 /* ProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB5CF241BDD6EFB0066F308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB5CF2D1BDD6EFB0066F308 /* GeoChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB5CF2F1BDD6EFB0066F308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B24BF6D1ABE6DAE00BB5AD9 /* GeoChat */;
+			targetProxy = 6BB5CF2E1BDD6EFB0066F308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BB5CEA41BDD6B090066F308 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB5CEA51BDD6B090066F308 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		6BB5CEA61BDD6B090066F308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB5CEA71BDD6B090066F308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B24BF8B1ABE6DAE00BB5AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B24BF8C1ABE6DAE00BB5AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B24BF8E1ABE6DAE00BB5AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59357B9899B4F49F63124BD /* Pods-Bankroll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "GeoChat/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = GeoChat;
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoChat/Supporting Files/Bankroll-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B24BF8F1ABE6DAE00BB5AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFF7709251A0BAAAFC7A06D /* Pods-Bankroll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "GeoChat/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = GeoChat;
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoChat/Supporting Files/Bankroll-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6BB5CF311BDD6EFB0066F308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoChat.app/GeoChat";
+			};
+			name = Debug;
+		};
+		6BB5CF321BDD6EFB0066F308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoChat.app/GeoChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B24BF691ABE6DAE00BB5AD9 /* Build configuration list for PBXProject "GeoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B24BF8B1ABE6DAE00BB5AD9 /* Debug */,
+				6B24BF8C1ABE6DAE00BB5AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B24BF8D1ABE6DAE00BB5AD9 /* Build configuration list for PBXNativeTarget "GeoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B24BF8E1ABE6DAE00BB5AD9 /* Debug */,
+				6B24BF8F1ABE6DAE00BB5AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB5CF301BDD6EFB0066F308 /* Build configuration list for PBXNativeTarget "GeoChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB5CF311BDD6EFB0066F308 /* Debug */,
+				6BB5CF321BDD6EFB0066F308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B24BF661ABE6DAE00BB5AD9 /* Project object */;
+}

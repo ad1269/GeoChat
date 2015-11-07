@@ -1,0 +1,6 @@
+framework module CameraManager {
+  umbrella header "Pods-Bankroll-CameraManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

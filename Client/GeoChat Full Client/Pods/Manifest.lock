@@ -1,0 +1,13 @@
+PODS:
+  - CameraManager (1.0.13)
+  - SWXMLHash (1.0.0)
+
+DEPENDENCIES:
+  - CameraManager (~> 1.0)
+  - SWXMLHash (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  CameraManager: 47b9b6b9a26b3f12426789e8c8ac1dc2bbcc74ea
+  SWXMLHash: ab46ebedec2baaeefe16948ad270c2c211735d60
+
+COCOAPODS: 0.37.2

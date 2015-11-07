@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+use_frameworks!
+
+target 'Bankroll' do
+pod 'CameraManager', '~> 1.0'
+pod 'SWXMLHash', '~> 1.0.0'
+end
+
+target 'BankrollTests' do
+end
+

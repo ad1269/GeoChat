@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082A0F86D1454BD8724DBCD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531CE8134EF552F504D4B506 /* Foundation.framework */; };
+		0A83CE2A0B62C5DC8E79E7D5 /* Pods-Bankroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9104F143088EF85A21BE0A6A /* Pods-Bankroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E8A9A218B973716A4F93535 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7889CD12C0C133BEA1B30 /* CameraManager.swift */; };
+		22409575D650EEDA6E33B377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531CE8134EF552F504D4B506 /* Foundation.framework */; };
+		2A70263904A232BDE0691C8E /* Pods-Bankroll-CameraManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A98165F917655F20599BB8 /* Pods-Bankroll-CameraManager-dummy.m */; };
+		5779D6C4E6629D554484D0F5 /* Pods-Bankroll-CameraManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB213659292A1A3FCAE4B23 /* Pods-Bankroll-CameraManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A516B59C588775B9A2244CC /* Pods-Bankroll-SWXMLHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78602B0D12BC3D808D1D9879 /* Pods-Bankroll-SWXMLHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		794C8520DD3F14CB5F1DEDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531CE8134EF552F504D4B506 /* Foundation.framework */; };
+		8027A089E2C9901E71C6B871 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B0FF29C78094678253732 /* SWXMLHash.swift */; };
+		C14753F4E2C9A7CF4E2A3529 /* Pods-Bankroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6A61634C6B4B94EF4D75E1 /* Pods-Bankroll-dummy.m */; };
+		CB2E32634FA229B8AC335AA5 /* Pods-Bankroll-SWXMLHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DE8A8E590FADDB261224B3 /* Pods-Bankroll-SWXMLHash-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DCC3FABD5F9508B77E282FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8FA5BE4F5A17BB59CCE87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1FADFA61786B5738546557;
+			remoteInfo = "Pods-Bankroll-CameraManager";
+		};
+		B25D0CB5B4385DD14EF7301A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8FA5BE4F5A17BB59CCE87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9270877986B0F3A815C9458;
+			remoteInfo = "Pods-Bankroll-SWXMLHash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028B0FF29C78094678253732 /* SWXMLHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = Source/SWXMLHash.swift; sourceTree = "<group>"; };
+		03A7889CD12C0C133BEA1B30 /* CameraManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraManager.swift; path = camera/CameraManager.swift; sourceTree = "<group>"; };
+		19DE8A8E590FADDB261224B3 /* Pods-Bankroll-SWXMLHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bankroll-SWXMLHash-dummy.m"; sourceTree = "<group>"; };
+		1CFF7FA02EB8DF1493EA5BA3 /* Pods-Bankroll-SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Bankroll-SWXMLHash.modulemap"; sourceTree = "<group>"; };
+		1F60F8250239875932B0DCBA /* Pods-Bankroll-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bankroll-environment.h"; sourceTree = "<group>"; };
+		28496D233899E917FAF38EFA /* Pods-Bankroll-SWXMLHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bankroll-SWXMLHash-prefix.pch"; sourceTree = "<group>"; };
+		2C4B83952B01561546002BB6 /* Pods-Bankroll-CameraManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Bankroll-CameraManager.modulemap"; sourceTree = "<group>"; };
+		406721838254B756F17CAC05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB213659292A1A3FCAE4B23 /* Pods-Bankroll-CameraManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bankroll-CameraManager-umbrella.h"; sourceTree = "<group>"; };
+		4CD3CCEC6AD6F6E789CA59A1 /* Pods_Bankroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bankroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531CE8134EF552F504D4B506 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58A98165F917655F20599BB8 /* Pods-Bankroll-CameraManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bankroll-CameraManager-dummy.m"; sourceTree = "<group>"; };
+		59C4615A73612B8C87C448A5 /* Pods-Bankroll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bankroll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B8AB768C9BC9C2E12559055 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6430CDFAAEB2C647BEA8897C /* Pods-Bankroll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bankroll-acknowledgements.plist"; sourceTree = "<group>"; };
+		69D744314F6D1754C81815DF /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78602B0D12BC3D808D1D9879 /* Pods-Bankroll-SWXMLHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bankroll-SWXMLHash-umbrella.h"; sourceTree = "<group>"; };
+		87C2A773EE1C5DE8F087A492 /* Pods-Bankroll-CameraManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bankroll-CameraManager-Private.xcconfig"; sourceTree = "<group>"; };
+		9104F143088EF85A21BE0A6A /* Pods-Bankroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bankroll-umbrella.h"; sourceTree = "<group>"; };
+		93B655BC7651CA64E9C971AD /* Pods-Bankroll-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bankroll-resources.sh"; sourceTree = "<group>"; };
+		9C06D39C29CD850DCBD0C0E7 /* Pods-Bankroll-SWXMLHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bankroll-SWXMLHash.xcconfig"; sourceTree = "<group>"; };
+		A89DF50617FA82E1177FDF59 /* Pods-Bankroll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bankroll-frameworks.sh"; sourceTree = "<group>"; };
+		B4AF769531B7D9FD208D7748 /* Pods-Bankroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bankroll.debug.xcconfig"; sourceTree = "<group>"; };
+		B9428FEB32B5FF77A9D883AE /* Pods-Bankroll-CameraManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bankroll-CameraManager-prefix.pch"; sourceTree = "<group>"; };
+		CA1334FE3163DD98D942A27F /* Pods-Bankroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bankroll.release.xcconfig"; sourceTree = "<group>"; };
+		CA2A1C5B995EE08ACE9A0FF6 /* Pods-Bankroll-CameraManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bankroll-CameraManager.xcconfig"; sourceTree = "<group>"; };
+		CBDEAB499C975750D2A57FEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE2C7D7CCA54D9D39382E9C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC4481772D8A50AC92C761DC /* Pods-Bankroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Bankroll.modulemap"; sourceTree = "<group>"; };
+		EE6A61634C6B4B94EF4D75E1 /* Pods-Bankroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bankroll-dummy.m"; sourceTree = "<group>"; };
+		FE4C86C11C21DAADD8560043 /* CameraManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CameraManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF59C41B2EC35A743C4176D8 /* Pods-Bankroll-SWXMLHash-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bankroll-SWXMLHash-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004838CBCB769083781E31E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082A0F86D1454BD8724DBCD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDE624E2C3939F61CDD87E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794C8520DD3F14CB5F1DEDCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8450F143277B8987F4F500A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22409575D650EEDA6E33B377 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6F785B09EFC51B69EC742F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C5256373B88727C7E8ACA83 /* CameraManager */,
+				F9669736F4F9A2BBC65C932A /* SWXMLHash */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C5256373B88727C7E8ACA83 /* CameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				03A7889CD12C0C133BEA1B30 /* CameraManager.swift */,
+				B2C80CB098A897664638DAE9 /* Support Files */,
+			);
+			path = CameraManager;
+			sourceTree = "<group>";
+		};
+		4747A2C2DE297E087AE91581 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				531CE8134EF552F504D4B506 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		509E0D81D7E45221515890C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4747A2C2DE297E087AE91581 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		668463ABD40BB2F71FF0E4A3 = {
+			isa = PBXGroup;
+			children = (
+				DFE2C7D7CCA54D9D39382E9C /* Podfile */,
+				509E0D81D7E45221515890C3 /* Frameworks */,
+				2A6F785B09EFC51B69EC742F /* Pods */,
+				AEF6393C8BFC3B3618FC674E /* Products */,
+				C7C201DE8A0EAC49B0E9ED33 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF6393C8BFC3B3618FC674E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4C86C11C21DAADD8560043 /* CameraManager.framework */,
+				4CD3CCEC6AD6F6E789CA59A1 /* Pods_Bankroll.framework */,
+				69D744314F6D1754C81815DF /* SWXMLHash.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C80CB098A897664638DAE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBDEAB499C975750D2A57FEB /* Info.plist */,
+				2C4B83952B01561546002BB6 /* Pods-Bankroll-CameraManager.modulemap */,
+				CA2A1C5B995EE08ACE9A0FF6 /* Pods-Bankroll-CameraManager.xcconfig */,
+				87C2A773EE1C5DE8F087A492 /* Pods-Bankroll-CameraManager-Private.xcconfig */,
+				58A98165F917655F20599BB8 /* Pods-Bankroll-CameraManager-dummy.m */,
+				B9428FEB32B5FF77A9D883AE /* Pods-Bankroll-CameraManager-prefix.pch */,
+				4BB213659292A1A3FCAE4B23 /* Pods-Bankroll-CameraManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Bankroll-CameraManager";
+			sourceTree = "<group>";
+		};
+		C7C201DE8A0EAC49B0E9ED33 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3877BB4605D4FEB55D934F1 /* Pods-Bankroll */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D3877BB4605D4FEB55D934F1 /* Pods-Bankroll */ = {
+			isa = PBXGroup;
+			children = (
+				406721838254B756F17CAC05 /* Info.plist */,
+				EC4481772D8A50AC92C761DC /* Pods-Bankroll.modulemap */,
+				59C4615A73612B8C87C448A5 /* Pods-Bankroll-acknowledgements.markdown */,
+				6430CDFAAEB2C647BEA8897C /* Pods-Bankroll-acknowledgements.plist */,
+				EE6A61634C6B4B94EF4D75E1 /* Pods-Bankroll-dummy.m */,
+				1F60F8250239875932B0DCBA /* Pods-Bankroll-environment.h */,
+				A89DF50617FA82E1177FDF59 /* Pods-Bankroll-frameworks.sh */,
+				93B655BC7651CA64E9C971AD /* Pods-Bankroll-resources.sh */,
+				9104F143088EF85A21BE0A6A /* Pods-Bankroll-umbrella.h */,
+				B4AF769531B7D9FD208D7748 /* Pods-Bankroll.debug.xcconfig */,
+				CA1334FE3163DD98D942A27F /* Pods-Bankroll.release.xcconfig */,
+			);
+			name = "Pods-Bankroll";
+			path = "Target Support Files/Pods-Bankroll";
+			sourceTree = "<group>";
+		};
+		EC96E69888AFE07AF1EFA37C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B8AB768C9BC9C2E12559055 /* Info.plist */,
+				1CFF7FA02EB8DF1493EA5BA3 /* Pods-Bankroll-SWXMLHash.modulemap */,
+				9C06D39C29CD850DCBD0C0E7 /* Pods-Bankroll-SWXMLHash.xcconfig */,
+				FF59C41B2EC35A743C4176D8 /* Pods-Bankroll-SWXMLHash-Private.xcconfig */,
+				19DE8A8E590FADDB261224B3 /* Pods-Bankroll-SWXMLHash-dummy.m */,
+				28496D233899E917FAF38EFA /* Pods-Bankroll-SWXMLHash-prefix.pch */,
+				78602B0D12BC3D808D1D9879 /* Pods-Bankroll-SWXMLHash-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Bankroll-SWXMLHash";
+			sourceTree = "<group>";
+		};
+		F9669736F4F9A2BBC65C932A /* SWXMLHash */ = {
+			isa = PBXGroup;
+			children = (
+				028B0FF29C78094678253732 /* SWXMLHash.swift */,
+				EC96E69888AFE07AF1EFA37C /* Support Files */,
+			);
+			path = SWXMLHash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15B8DBE20ED7A73956461A5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5779D6C4E6629D554484D0F5 /* Pods-Bankroll-CameraManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD04C3AECF2A25C7C23BBD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A83CE2A0B62C5DC8E79E7D5 /* Pods-Bankroll-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2D629FA95DCCE8DAD66E3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A516B59C588775B9A2244CC /* Pods-Bankroll-SWXMLHash-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		634212C50C25D3F6E8CD52EC /* Pods-Bankroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6304F632D0F872DC4BDC5F /* Build configuration list for PBXNativeTarget "Pods-Bankroll" */;
+			buildPhases = (
+				87B0832398BA5DFD973B0ED4 /* Sources */,
+				4CDE624E2C3939F61CDD87E9 /* Frameworks */,
+				2DD04C3AECF2A25C7C23BBD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00016263C1EB8CE98871145F /* PBXTargetDependency */,
+				78E524E5B8E7B0EC7A3F67B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Bankroll";
+			productName = "Pods-Bankroll";
+			productReference = 4CD3CCEC6AD6F6E789CA59A1 /* Pods_Bankroll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F1FADFA61786B5738546557 /* Pods-Bankroll-CameraManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5AEA4D9DB14AB09B829DBC /* Build configuration list for PBXNativeTarget "Pods-Bankroll-CameraManager" */;
+			buildPhases = (
+				DFEE930B13A428372FE6676F /* Sources */,
+				004838CBCB769083781E31E3 /* Frameworks */,
+				15B8DBE20ED7A73956461A5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Bankroll-CameraManager";
+			productName = "Pods-Bankroll-CameraManager";
+			productReference = FE4C86C11C21DAADD8560043 /* CameraManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9270877986B0F3A815C9458 /* Pods-Bankroll-SWXMLHash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CEB68B7B37103BC06E9069B /* Build configuration list for PBXNativeTarget "Pods-Bankroll-SWXMLHash" */;
+			buildPhases = (
+				224024F2972F3D89996EC294 /* Sources */,
+				D8450F143277B8987F4F500A /* Frameworks */,
+				3D2D629FA95DCCE8DAD66E3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Bankroll-SWXMLHash";
+			productName = "Pods-Bankroll-SWXMLHash";
+			productReference = 69D744314F6D1754C81815DF /* SWXMLHash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C8FA5BE4F5A17BB59CCE87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = AB74E944873CD4F875B02A69 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 668463ABD40BB2F71FF0E4A3;
+			productRefGroup = AEF6393C8BFC3B3618FC674E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634212C50C25D3F6E8CD52EC /* Pods-Bankroll */,
+				7F1FADFA61786B5738546557 /* Pods-Bankroll-CameraManager */,
+				D9270877986B0F3A815C9458 /* Pods-Bankroll-SWXMLHash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224024F2972F3D89996EC294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2E32634FA229B8AC335AA5 /* Pods-Bankroll-SWXMLHash-dummy.m in Sources */,
+				8027A089E2C9901E71C6B871 /* SWXMLHash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B0832398BA5DFD973B0ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14753F4E2C9A7CF4E2A3529 /* Pods-Bankroll-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEE930B13A428372FE6676F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8A9A218B973716A4F93535 /* CameraManager.swift in Sources */,
+				2A70263904A232BDE0691C8E /* Pods-Bankroll-CameraManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00016263C1EB8CE98871145F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Bankroll-CameraManager";
+			target = 7F1FADFA61786B5738546557 /* Pods-Bankroll-CameraManager */;
+			targetProxy = 4DCC3FABD5F9508B77E282FC /* PBXContainerItemProxy */;
+		};
+		78E524E5B8E7B0EC7A3F67B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Bankroll-SWXMLHash";
+			target = D9270877986B0F3A815C9458 /* Pods-Bankroll-SWXMLHash */;
+			targetProxy = B25D0CB5B4385DD14EF7301A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46645EE0F647FBCFA909682F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C2A773EE1C5DE8F087A492 /* Pods-Bankroll-CameraManager-Private.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Bankroll-CameraManager/Pods-Bankroll-CameraManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bankroll-CameraManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Bankroll-CameraManager/Pods-Bankroll-CameraManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CameraManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4879EB269F535DB88C568839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85260F9DF6C919FA80BD6157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF59C41B2EC35A743C4176D8 /* Pods-Bankroll-SWXMLHash-Private.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Bankroll-SWXMLHash/Pods-Bankroll-SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bankroll-SWXMLHash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Bankroll-SWXMLHash/Pods-Bankroll-SWXMLHash.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99F38A2FCC5B377E6CD039F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1334FE3163DD98D942A27F /* Pods-Bankroll.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bankroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Bankroll/Pods-Bankroll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Bankroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF30782F962D709F654407BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF59C41B2EC35A743C4176D8 /* Pods-Bankroll-SWXMLHash-Private.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Bankroll-SWXMLHash/Pods-Bankroll-SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bankroll-SWXMLHash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Bankroll-SWXMLHash/Pods-Bankroll-SWXMLHash.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0D27DB49FCEC6CA76B4CEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AF769531B7D9FD208D7748 /* Pods-Bankroll.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bankroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Bankroll/Pods-Bankroll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Bankroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F749352104FC76C3C3113817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F9785D04A8CE4E7A3F598AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C2A773EE1C5DE8F087A492 /* Pods-Bankroll-CameraManager-Private.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Bankroll-CameraManager/Pods-Bankroll-CameraManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bankroll-CameraManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Bankroll-CameraManager/Pods-Bankroll-CameraManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CameraManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CEB68B7B37103BC06E9069B /* Build configuration list for PBXNativeTarget "Pods-Bankroll-SWXMLHash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85260F9DF6C919FA80BD6157 /* Debug */,
+				AF30782F962D709F654407BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5AEA4D9DB14AB09B829DBC /* Build configuration list for PBXNativeTarget "Pods-Bankroll-CameraManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9785D04A8CE4E7A3F598AE8 /* Debug */,
+				46645EE0F647FBCFA909682F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB74E944873CD4F875B02A69 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F749352104FC76C3C3113817 /* Debug */,
+				4879EB269F535DB88C568839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6304F632D0F872DC4BDC5F /* Build configuration list for PBXNativeTarget "Pods-Bankroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D27DB49FCEC6CA76B4CEDD /* Debug */,
+				99F38A2FCC5B377E6CD039F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C8FA5BE4F5A17BB59CCE87A /* Project object */;
+}

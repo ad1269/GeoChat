@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5A6EF1EB-9DCE-4429-BFCC-2E93645F24D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bankroll</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BC69DBDF707E3619953C377111F9CDB2D166E7E</key>
+		<string>https://github.com/ad1269/Bankroll.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bankroll.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BC69DBDF707E3619953C377111F9CDB2D166E7E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ad1269/Bankroll.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BC69DBDF707E3619953C377111F9CDB2D166E7E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BC69DBDF707E3619953C377111F9CDB2D166E7E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bankroll</string>
+		</dict>
+	</array>
+</dict>
+</plist>
